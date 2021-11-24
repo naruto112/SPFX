@@ -1,0 +1,46 @@
+/* tslint:disable */
+require("./SiteFilePickerTab.module.css");
+var styles = {
+    filePicker: 'filePicker_ba0475d2',
+    tabsContainer: 'tabsContainer_ba0475d2',
+    tabContainer: 'tabContainer_ba0475d2',
+    nav: 'nav_ba0475d2',
+    tabHeaderContainer: 'tabHeaderContainer_ba0475d2',
+    breadcrumbNav: 'breadcrumbNav_ba0475d2',
+    breadcrumbNavItem: 'breadcrumbNavItem_ba0475d2',
+    tab: 'tab_ba0475d2',
+    tabOffset: 'tabOffset_ba0475d2',
+    tabFiles: 'tabFiles_ba0475d2',
+    scrollablePaneWrapper: 'scrollablePaneWrapper_ba0475d2',
+    actionButtonsContainer: 'actionButtonsContainer_ba0475d2',
+    actionButtons: 'actionButtons_ba0475d2',
+    actionButton: 'actionButton_ba0475d2',
+    tabHeader: 'tabHeader_ba0475d2',
+    selectedTab: 'selectedTab_ba0475d2',
+    header: 'header_ba0475d2',
+    xlg: 'xlg_ba0475d2',
+    xxlg: 'xxlg_ba0475d2',
+    xxxlg: 'xxxlg_ba0475d2',
+    xxxxlg: 'xxxxlg_ba0475d2',
+    itemPickerTopBar: 'itemPickerTopBar_ba0475d2',
+    commandBarNoChevron: 'commandBarNoChevron_ba0475d2',
+    fileItem: 'fileItem_ba0475d2',
+    folderItem: 'folderItem_ba0475d2',
+    fileTypeIcon: 'fileTypeIcon_ba0475d2',
+    fileTypeIconIcon: 'fileTypeIconIcon_ba0475d2',
+    detailsListHeaderFileTypeIcon: 'detailsListHeaderFileTypeIcon_ba0475d2',
+    iconColumnHeader: 'iconColumnHeader_ba0475d2',
+    fileRow: 'fileRow_ba0475d2',
+    folderRow: 'folderRow_ba0475d2',
+    emptyFolder: 'emptyFolder_ba0475d2',
+    emptyFolderImage: 'emptyFolderImage_ba0475d2',
+    emptyFolderImageTag: 'emptyFolderImageTag_ba0475d2',
+    emptyFolderTitle: 'emptyFolderTitle_ba0475d2',
+    emptyFolderSubText: 'emptyFolderSubText_ba0475d2',
+    emptyFolderMobile: 'emptyFolderMobile_ba0475d2',
+    emptyFolderPc: 'emptyFolderPc_ba0475d2',
+    emptyFolderIcon: 'emptyFolderIcon_ba0475d2'
+};
+export default styles;
+/* tslint:enable */ 
+//# sourceMappingURL=SiteFilePickerTab.module.scss.js.map

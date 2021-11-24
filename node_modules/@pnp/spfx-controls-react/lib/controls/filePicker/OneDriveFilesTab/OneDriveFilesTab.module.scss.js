@@ -1,0 +1,46 @@
+/* tslint:disable */
+require("./OneDriveFilesTab.module.css");
+var styles = {
+    filePicker: 'filePicker_06e5c890',
+    tabsContainer: 'tabsContainer_06e5c890',
+    tabContainer: 'tabContainer_06e5c890',
+    nav: 'nav_06e5c890',
+    tabHeaderContainer: 'tabHeaderContainer_06e5c890',
+    breadcrumbNav: 'breadcrumbNav_06e5c890',
+    breadcrumbNavItem: 'breadcrumbNavItem_06e5c890',
+    tab: 'tab_06e5c890',
+    tabOffset: 'tabOffset_06e5c890',
+    tabFiles: 'tabFiles_06e5c890',
+    scrollablePaneWrapper: 'scrollablePaneWrapper_06e5c890',
+    actionButtonsContainer: 'actionButtonsContainer_06e5c890',
+    actionButtons: 'actionButtons_06e5c890',
+    actionButton: 'actionButton_06e5c890',
+    tabHeader: 'tabHeader_06e5c890',
+    selectedTab: 'selectedTab_06e5c890',
+    header: 'header_06e5c890',
+    xlg: 'xlg_06e5c890',
+    xxlg: 'xxlg_06e5c890',
+    xxxlg: 'xxxlg_06e5c890',
+    xxxxlg: 'xxxxlg_06e5c890',
+    itemPickerTopBar: 'itemPickerTopBar_06e5c890',
+    commandBarNoChevron: 'commandBarNoChevron_06e5c890',
+    fileItem: 'fileItem_06e5c890',
+    folderItem: 'folderItem_06e5c890',
+    fileTypeIcon: 'fileTypeIcon_06e5c890',
+    fileTypeIconIcon: 'fileTypeIconIcon_06e5c890',
+    detailsListHeaderFileTypeIcon: 'detailsListHeaderFileTypeIcon_06e5c890',
+    iconColumnHeader: 'iconColumnHeader_06e5c890',
+    fileRow: 'fileRow_06e5c890',
+    folderRow: 'folderRow_06e5c890',
+    emptyFolder: 'emptyFolder_06e5c890',
+    emptyFolderImage: 'emptyFolderImage_06e5c890',
+    emptyFolderImageTag: 'emptyFolderImageTag_06e5c890',
+    emptyFolderTitle: 'emptyFolderTitle_06e5c890',
+    emptyFolderSubText: 'emptyFolderSubText_06e5c890',
+    emptyFolderMobile: 'emptyFolderMobile_06e5c890',
+    emptyFolderPc: 'emptyFolderPc_06e5c890',
+    emptyFolderIcon: 'emptyFolderIcon_06e5c890'
+};
+export default styles;
+/* tslint:enable */ 
+//# sourceMappingURL=OneDriveFilesTab.module.scss.js.map

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="spfx-project-client-side-solution" ProductID="ae3b76a6-1127-4f87-b6d7-e374ca62a249" Version="1.0.0.0" SharePointMinVersion="16.0.0.0" IsClientSideSolution="true" IsDomainIsolated="false"><Properties><Title>spfx-project-client-side-solution</Title></Properties></App>

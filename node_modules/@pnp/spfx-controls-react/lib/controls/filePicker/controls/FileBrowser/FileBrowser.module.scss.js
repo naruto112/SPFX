@@ -1,0 +1,46 @@
+/* tslint:disable */
+require("./FileBrowser.module.css");
+var styles = {
+    filePicker: 'filePicker_5ee7b2d4',
+    tabsContainer: 'tabsContainer_5ee7b2d4',
+    tabContainer: 'tabContainer_5ee7b2d4',
+    nav: 'nav_5ee7b2d4',
+    tabHeaderContainer: 'tabHeaderContainer_5ee7b2d4',
+    breadcrumbNav: 'breadcrumbNav_5ee7b2d4',
+    breadcrumbNavItem: 'breadcrumbNavItem_5ee7b2d4',
+    tab: 'tab_5ee7b2d4',
+    tabOffset: 'tabOffset_5ee7b2d4',
+    tabFiles: 'tabFiles_5ee7b2d4',
+    scrollablePaneWrapper: 'scrollablePaneWrapper_5ee7b2d4',
+    actionButtonsContainer: 'actionButtonsContainer_5ee7b2d4',
+    actionButtons: 'actionButtons_5ee7b2d4',
+    actionButton: 'actionButton_5ee7b2d4',
+    tabHeader: 'tabHeader_5ee7b2d4',
+    selectedTab: 'selectedTab_5ee7b2d4',
+    header: 'header_5ee7b2d4',
+    xlg: 'xlg_5ee7b2d4',
+    xxlg: 'xxlg_5ee7b2d4',
+    xxxlg: 'xxxlg_5ee7b2d4',
+    xxxxlg: 'xxxxlg_5ee7b2d4',
+    itemPickerTopBar: 'itemPickerTopBar_5ee7b2d4',
+    commandBarNoChevron: 'commandBarNoChevron_5ee7b2d4',
+    fileItem: 'fileItem_5ee7b2d4',
+    folderItem: 'folderItem_5ee7b2d4',
+    fileTypeIcon: 'fileTypeIcon_5ee7b2d4',
+    fileTypeIconIcon: 'fileTypeIconIcon_5ee7b2d4',
+    detailsListHeaderFileTypeIcon: 'detailsListHeaderFileTypeIcon_5ee7b2d4',
+    iconColumnHeader: 'iconColumnHeader_5ee7b2d4',
+    fileRow: 'fileRow_5ee7b2d4',
+    folderRow: 'folderRow_5ee7b2d4',
+    emptyFolder: 'emptyFolder_5ee7b2d4',
+    emptyFolderImage: 'emptyFolderImage_5ee7b2d4',
+    emptyFolderImageTag: 'emptyFolderImageTag_5ee7b2d4',
+    emptyFolderTitle: 'emptyFolderTitle_5ee7b2d4',
+    emptyFolderSubText: 'emptyFolderSubText_5ee7b2d4',
+    emptyFolderMobile: 'emptyFolderMobile_5ee7b2d4',
+    emptyFolderPc: 'emptyFolderPc_5ee7b2d4',
+    emptyFolderIcon: 'emptyFolderIcon_5ee7b2d4'
+};
+export default styles;
+/* tslint:enable */ 
+//# sourceMappingURL=FileBrowser.module.scss.js.map

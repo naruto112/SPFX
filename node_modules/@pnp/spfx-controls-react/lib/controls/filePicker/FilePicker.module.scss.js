@@ -1,0 +1,46 @@
+/* tslint:disable */
+require("./FilePicker.module.css");
+var styles = {
+    filePicker: 'filePicker_880c3cf7',
+    tabsContainer: 'tabsContainer_880c3cf7',
+    tabContainer: 'tabContainer_880c3cf7',
+    nav: 'nav_880c3cf7',
+    tabHeaderContainer: 'tabHeaderContainer_880c3cf7',
+    breadcrumbNav: 'breadcrumbNav_880c3cf7',
+    breadcrumbNavItem: 'breadcrumbNavItem_880c3cf7',
+    tab: 'tab_880c3cf7',
+    tabOffset: 'tabOffset_880c3cf7',
+    tabFiles: 'tabFiles_880c3cf7',
+    scrollablePaneWrapper: 'scrollablePaneWrapper_880c3cf7',
+    actionButtonsContainer: 'actionButtonsContainer_880c3cf7',
+    actionButtons: 'actionButtons_880c3cf7',
+    actionButton: 'actionButton_880c3cf7',
+    tabHeader: 'tabHeader_880c3cf7',
+    selectedTab: 'selectedTab_880c3cf7',
+    header: 'header_880c3cf7',
+    xlg: 'xlg_880c3cf7',
+    xxlg: 'xxlg_880c3cf7',
+    xxxlg: 'xxxlg_880c3cf7',
+    xxxxlg: 'xxxxlg_880c3cf7',
+    itemPickerTopBar: 'itemPickerTopBar_880c3cf7',
+    commandBarNoChevron: 'commandBarNoChevron_880c3cf7',
+    fileItem: 'fileItem_880c3cf7',
+    folderItem: 'folderItem_880c3cf7',
+    fileTypeIcon: 'fileTypeIcon_880c3cf7',
+    fileTypeIconIcon: 'fileTypeIconIcon_880c3cf7',
+    detailsListHeaderFileTypeIcon: 'detailsListHeaderFileTypeIcon_880c3cf7',
+    iconColumnHeader: 'iconColumnHeader_880c3cf7',
+    fileRow: 'fileRow_880c3cf7',
+    folderRow: 'folderRow_880c3cf7',
+    emptyFolder: 'emptyFolder_880c3cf7',
+    emptyFolderImage: 'emptyFolderImage_880c3cf7',
+    emptyFolderImageTag: 'emptyFolderImageTag_880c3cf7',
+    emptyFolderTitle: 'emptyFolderTitle_880c3cf7',
+    emptyFolderSubText: 'emptyFolderSubText_880c3cf7',
+    emptyFolderMobile: 'emptyFolderMobile_880c3cf7',
+    emptyFolderPc: 'emptyFolderPc_880c3cf7',
+    emptyFolderIcon: 'emptyFolderIcon_880c3cf7'
+};
+export default styles;
+/* tslint:enable */ 
+//# sourceMappingURL=FilePicker.module.scss.js.map

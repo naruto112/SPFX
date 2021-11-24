@@ -1,0 +1,48 @@
+/* tslint:disable */
+require("./StockImages.module.css");
+var styles = {
+    filePicker: 'filePicker_30da5774',
+    tabsContainer: 'tabsContainer_30da5774',
+    tabContainer: 'tabContainer_30da5774',
+    nav: 'nav_30da5774',
+    tabHeaderContainer: 'tabHeaderContainer_30da5774',
+    breadcrumbNav: 'breadcrumbNav_30da5774',
+    breadcrumbNavItem: 'breadcrumbNavItem_30da5774',
+    tab: 'tab_30da5774',
+    tabOffset: 'tabOffset_30da5774',
+    tabFiles: 'tabFiles_30da5774',
+    scrollablePaneWrapper: 'scrollablePaneWrapper_30da5774',
+    actionButtonsContainer: 'actionButtonsContainer_30da5774',
+    actionButtons: 'actionButtons_30da5774',
+    actionButton: 'actionButton_30da5774',
+    tabHeader: 'tabHeader_30da5774',
+    selectedTab: 'selectedTab_30da5774',
+    header: 'header_30da5774',
+    xlg: 'xlg_30da5774',
+    xxlg: 'xxlg_30da5774',
+    xxxlg: 'xxxlg_30da5774',
+    xxxxlg: 'xxxxlg_30da5774',
+    itemPickerTopBar: 'itemPickerTopBar_30da5774',
+    commandBarNoChevron: 'commandBarNoChevron_30da5774',
+    fileItem: 'fileItem_30da5774',
+    folderItem: 'folderItem_30da5774',
+    fileTypeIcon: 'fileTypeIcon_30da5774',
+    fileTypeIconIcon: 'fileTypeIconIcon_30da5774',
+    detailsListHeaderFileTypeIcon: 'detailsListHeaderFileTypeIcon_30da5774',
+    iconColumnHeader: 'iconColumnHeader_30da5774',
+    fileRow: 'fileRow_30da5774',
+    folderRow: 'folderRow_30da5774',
+    emptyFolder: 'emptyFolder_30da5774',
+    emptyFolderImage: 'emptyFolderImage_30da5774',
+    emptyFolderImageTag: 'emptyFolderImageTag_30da5774',
+    emptyFolderTitle: 'emptyFolderTitle_30da5774',
+    emptyFolderSubText: 'emptyFolderSubText_30da5774',
+    emptyFolderMobile: 'emptyFolderMobile_30da5774',
+    emptyFolderPc: 'emptyFolderPc_30da5774',
+    emptyFolderIcon: 'emptyFolderIcon_30da5774',
+    stockImagesPickerContainer: 'stockImagesPickerContainer_30da5774',
+    stockImagesPicker: 'stockImagesPicker_30da5774'
+};
+export default styles;
+/* tslint:enable */ 
+//# sourceMappingURL=StockImages.module.scss.js.map

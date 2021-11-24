@@ -1,0 +1,19 @@
+import * as React from 'react';
+import { IDynamicFieldProps } from './IDynamicFieldProps';
+import { IDynamicFieldState } from './IDynamicFieldState';
+import '@pnp/sp/folders';
+import '@pnp/sp/webs';
+export declare class DynamicField extends React.Component<IDynamicFieldProps, IDynamicFieldState> {
+    constructor(props: IDynamicFieldProps);
+    componentDidUpdate(): void;
+    render(): JSX.Element;
+    private getFieldComponent;
+    private onDeleteImage;
+    private onURLChange;
+    private onChange;
+    private onBlur;
+    private getRequiredErrorText;
+    private MultiChoice_selection;
+    private saveIntoSharePoint;
+}
+//# sourceMappingURL=DynamicField.d.ts.map

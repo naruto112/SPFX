@@ -1,0 +1,68 @@
+{
+  "id": "abe510a1-64e8-4844-9c5f-e36b237e1257",
+  "alias": "LoginWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Login"
+      },
+      "description": {
+        "default": "Login description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "Login"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "login-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "login-web-part": {
+        "type": "path",
+        "path": "dist/login-web-part.js"
+      },
+      "LoginWebPartStrings": {
+        "defaultPath": "lib/webparts/login/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.10.0",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "react": {
+        "type": "component",
+        "version": "16.8.5",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "failoverPath": "node_modules/react/dist/react.js"
+      },
+      "react-dom": {
+        "type": "component",
+        "version": "16.8.5",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "failoverPath": "node_modules/react-dom/dist/react-dom.js"
+      }
+    }
+  }
+}
