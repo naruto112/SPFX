@@ -65,29 +65,31 @@ export default class Login extends React.Component<ILoginProps, {}> {
                 handleBlur,
                 handleSubmit,
                 isSubmitting,
-              }) => (
-                <form onSubmit={handleSubmit}>
-                  <h1>Faça seu Logon</h1>
-                  <input
-                    name="id"
-                    placeholder="Sua ID"
-                    value={values.id}
-                    onChange={handleChange}
-                  />
-                  {errors.id && touched.id && errors.id}
-                  <button
-                    className={stylesGlobal.button}
-                    type="submit"
-                    disabled={isSubmitting}
-                  >
-                    Entrar
-                  </button>
-                  <a className={stylesGlobal["back-link"]} href="/Login/123">
-                    <FiLogIn size={16} color="#E02041" />
-                    Não tenho cadastro
-                  </a>
-                </form>
-              )}
+              }) => {
+                return (
+                  <form onSubmit={handleSubmit}>
+                    <h1>Faça seu Logon</h1>
+                    <input
+                      name="id"
+                      placeholder="Sua ID"
+                      value={values.id}
+                      onChange={handleChange}
+                    />
+                    {errors.id && touched.id && errors.id}
+                    <button
+                      className={stylesGlobal.button}
+                      type="submit"
+                      disabled={isSubmitting}
+                    >
+                      Entrar
+                    </button>
+                    <a className={stylesGlobal["back-link"]} href="/Login/123">
+                      <FiLogIn size={16} color="#E02041" />
+                      Não tenho cadastro
+                    </a>
+                  </form>
+                );
+              }}
             </Formik>
           </section>
           <img src={require("./assets/heroes.png")} alt="Heroes" />
