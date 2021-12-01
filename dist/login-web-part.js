@@ -4638,8 +4638,10 @@ __webpack_require__.r(__webpack_exports__);
 /* tslint:disable */
 __webpack_require__(/*! ./Global.module.css */ "JrDM");
 var styles = {
-    button: 'button_2fefde57',
-    'back-link': 'back-link_2fefde57'
+    'input-error': 'input-error_4e79baee',
+    'label-error': 'label-error_4e79baee',
+    button: 'button_4e79baee',
+    'back-link': 'back-link_4e79baee'
 };
 /* harmony default export */ __webpack_exports__["default"] = (styles);
 /* tslint:enable */ 
@@ -6319,15 +6321,15 @@ var Login = /** @class */ (function (_super) {
                         validate: function (values) {
                             var errors = { id: "" };
                             if (!values.id) {
-                                errors.id = "Required";
+                                errors.id = "*Campo obrigatório";
+                                return errors;
                             }
-                            return errors;
                         }, onSubmit: handleLogin }, function (_a) {
                         var values = _a.values, errors = _a.errors, touched = _a.touched, handleChange = _a.handleChange, handleBlur = _a.handleBlur, handleSubmit = _a.handleSubmit, isSubmitting = _a.isSubmitting;
                         return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("form", { onSubmit: handleSubmit },
                             react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("h1", null, "Fa\u00E7a seu Logon"),
-                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("input", { name: "id", placeholder: "Sua ID", value: values.id, onChange: handleChange }),
-                            errors.id && touched.id && errors.id,
+                            react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("input", { className: errors.id && touched.id && _Global_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"]["input-error"], name: "id", placeholder: "Sua ID", value: values.id, onChange: handleChange }),
+                            errors.id && touched.id && (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("label", { className: errors.id && touched.id && _Global_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"]["label-error"] }, errors.id)),
                             react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("button", { className: _Global_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"].button, type: "submit", disabled: isSubmitting }, "Entrar"),
                             react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", { className: _Global_module_scss__WEBPACK_IMPORTED_MODULE_2__["default"]["back-link"], href: "/Login/123" },
                                 react__WEBPACK_IMPORTED_MODULE_0__["createElement"](react_icons_fi__WEBPACK_IMPORTED_MODULE_3__["FiLogIn"], { size: 16, color: "#E02041" }),
@@ -9213,7 +9215,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/di
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap);", ""]);
 
 // Module
-exports.push([module.i, "*{margin:0;padding:0;outline:0;-webkit-box-sizing:border-box;box-sizing:border-box}body{font:400 14px Roboto,sans-serif;background:#f0f0f5;-webkit-font-smoothing:antialiased}button,input,textarea{font:400 18px Roboto,sans-serif}button{cursor:pointer}form input{height:60px;padding:0 24px}form input,form textarea{width:100%;color:#333;border:1px solid #dcdce6;border-radius:8px}form textarea{resize:vertical;min-height:140px;padding:16px 24px;line-height:24px}.button_2fefde57{width:100%;height:60px;background:#e02041;border:0;border-radius:8px;color:#fff;font-weight:700;margin-top:16px;display:inline-block;text-align:center;text-decoration:none;font-size:18px;line-height:60px;-webkit-transition:-webkit-filter .2s;transition:-webkit-filter .2s;transition:filter .2s;transition:filter .2s,-webkit-filter .2s}.button_2fefde57:hover{-webkit-filter:brightness(90%);filter:brightness(90%)}.back-link_2fefde57{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:40px;color:#41414d;font-size:18px;text-decoration:none;font-weight:500;-webkit-transition:opacity .2s;transition:opacity .2s}.back-link_2fefde57 svg{margin-right:8px}.back-link_2fefde57:hover{opacity:.8}", ""]);
+exports.push([module.i, "*{margin:0;padding:0;outline:0;-webkit-box-sizing:border-box;box-sizing:border-box}body{font:400 14px Roboto,sans-serif;background:#f0f0f5;-webkit-font-smoothing:antialiased}.input-error_4e79baee,button,input,textarea{font:400 18px Roboto,sans-serif}.input-error_4e79baee{border-width:.3ch;border-color:#e02041}.label-error_4e79baee{color:#e02041}button{cursor:pointer}form input{height:60px;padding:0 24px}form input,form textarea{width:100%;color:#333;border:1px solid #dcdce6;border-radius:8px}form textarea{resize:vertical;min-height:140px;padding:16px 24px;line-height:24px}.button_4e79baee{width:100%;height:60px;background:#e02041;border:0;border-radius:8px;color:#fff;font-weight:700;margin-top:16px;display:inline-block;text-align:center;text-decoration:none;font-size:18px;line-height:60px;-webkit-transition:-webkit-filter .2s;transition:-webkit-filter .2s;transition:filter .2s;transition:filter .2s,-webkit-filter .2s}.button_4e79baee:hover{-webkit-filter:brightness(90%);filter:brightness(90%)}.back-link_4e79baee{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:40px;color:#41414d;font-size:18px;text-decoration:none;font-weight:500;-webkit-transition:opacity .2s;transition:opacity .2s}.back-link_4e79baee svg{margin-right:8px}.back-link_4e79baee:hover{opacity:.8}", ""]);
 
 
 

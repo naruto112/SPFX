@@ -51,9 +51,9 @@ export default class Login extends React.Component<ILoginProps, {}> {
               validate={(values) => {
                 const errors = { id: "" };
                 if (!values.id) {
-                  errors.id = "Required";
+                  errors.id = "*Campo obrigatório";
+                  return errors;
                 }
-                return errors;
               }}
               onSubmit={handleLogin}
             >
@@ -69,13 +69,26 @@ export default class Login extends React.Component<ILoginProps, {}> {
                 return (
                   <form onSubmit={handleSubmit}>
                     <h1>Faça seu Logon</h1>
+
                     <input
+                      className={
+                        errors.id && touched.id && stylesGlobal["input-error"]
+                      }
                       name="id"
-                      placeholder="Sua ID"
+                      placeholder={"Sua ID"}
                       value={values.id}
                       onChange={handleChange}
                     />
-                    {errors.id && touched.id && errors.id}
+
+                    {errors.id && touched.id && (
+                      <label
+                        className={
+                          errors.id && touched.id && stylesGlobal["label-error"]
+                        }
+                      >
+                        {errors.id}
+                      </label>
+                    )}
                     <button
                       className={stylesGlobal.button}
                       type="submit"
