@@ -69,7 +69,6 @@ export default class Login extends React.Component<ILoginProps, {}> {
                 return (
                   <form onSubmit={handleSubmit}>
                     <h1>Faça seu Logon</h1>
-
                     <input
                       className={
                         errors.id && touched.id && stylesGlobal["input-error"]
